@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 
-mongoose.connect('mongodb://localhost/estate')
+mongoose.connect('mongodb://localhost/myestate')
 .then(()=>console.log('Connected to the database'))
 .catch(()=>console.log('Could not connect to the database'));
 
