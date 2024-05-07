@@ -166,7 +166,7 @@ export default function CreateListing() {
             className='border p-3 rounded-lg'
             id='name'
             maxLength='62'
-            minLength='10'
+            minLength='3'
             required
             onChange={handleChange}
             value={formData.name}
@@ -174,7 +174,7 @@ export default function CreateListing() {
           <textarea
             type='text'
             placeholder='Description'
-            className='border p-3 rounded-lg'
+            className='border p-3 rounded-lg no-resize'
             id='description'
             required
             onChange={handleChange}
